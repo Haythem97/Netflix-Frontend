@@ -13,7 +13,7 @@ const Index = () => {
 
       <div className={styles}>
         <div className={styles} >
-          <div class="">
+          <div>
             <div className={styles.et}>
             <div className={styles}>
               <span id="" className={styles.et2}>ÉTAPE <b>2</b> SUR <b>3</b></span>
@@ -25,15 +25,15 @@ const Index = () => {
 
           <div className={styles.et}>
             <ul className="" >
-                 <li className="dd"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="checkmark-group--icon" aria-hidden="true">
+                 <li className="dd"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="checkmark-group--icon" aria-hidden="true">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg>
                     <span className="" > Regardez autant que vous voulez. Sans publicité.</span></li>
-                <li className=""> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="checkmark-group--icon" aria-hidden="true">
+                <li className=""> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="checkmark-group--icon" aria-hidden="true">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg>
                     <span className=""> Recommandations personnalisées.</span></li>
-                <li className="" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="checkmark-group--icon" aria-hidden="true">
+                <li className="" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="checkmark-group--icon" aria-hidden="true">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg>
-                    <span class="checkmark-group--text" data-uia="checkmark-group+row-2+content"> Changez ou annulez votre forfait à tout moment.</span></li></ul>
+                    <span> Changez ou annulez votre forfait à tout moment.</span></li></ul>
             </div>
             </div>
               
@@ -75,13 +75,13 @@ const Index = () => {
                             
                         <tr role="row" >
                           <td className={styles.f1}>Netflix sur votre TV, ordinateur, smartphone et tablette</td>  
-                          <td  className={styles.f2}><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="planGrid__booleanGraphic planGrid__booleanGraphic--isCheck" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg></span></td>
-                          <td className={styles.f3} ><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="planGrid__booleanGraphic planGrid__booleanGraphic--isCheck" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg></span></td>
+                          <td  className={styles.f2}><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"  focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg></span></td>
+                          <td className={styles.f3} ><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"  focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg></span></td>
                         </tr>
                         <tr role="row" >
                           <td className={styles.f1}>Nouveautés 2022</td>  
-                          <td  className={styles.f2}><span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></span></td>
-                          <td className={styles.f3} ><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="planGrid__booleanGraphic planGrid__booleanGraphic--isCheck" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg></span></td>
+                          <td  className={styles.f2}><span><svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></span></td>
+                          <td className={styles.f3} ><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="planGrid__booleanGraphic planGrid__booleanGraphic--isCheck" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.68239 19.7312L23.6824 5.73115L22.3178 4.26904L8.02404 17.6098L2.70718 12.293L1.29297 13.7072L7.29297 19.7072C7.67401 20.0882 8.28845 20.0988 8.68239 19.7312Z" fill="currentColor"></path></svg></span></td>
                         </tr>
                     
                     </tbody> 
@@ -93,7 +93,7 @@ const Index = () => {
                       </small>
                       <small className={styles.plangriddic}>
                         <span id="" data-uia="plan-grid-legal">Seules les personnes qui vivent avec vous peuvent utiliser votre compte. Regardez Netflix en simultané sur 4&nbsp;appareils différents avec le forfait Premium, sur&nbsp;2 avec le forfait Standard, et sur&nbsp;1 avec le forfait Essentiel.</span></small></div></div>
-                        <div class="submitBtnContainer firstLoad">
+                        <div >
                           <button type="button" autocomplete="off" tabindex="0" className={styles.Button} data-uia="cta-plan-selection" placeholder="planSelection_button_continue">Suivant</button>
                           </div>
 

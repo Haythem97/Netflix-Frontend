@@ -73,12 +73,12 @@ const Index = () => {
                     <input className={styles.check} type="checkbox"/>
                  <a className={styles.login__secondary_cta__text} href="#"> Se souvenir de moi</a>
                 <a className={styles.login__secondary_cta__text_login_secondary_cta__text_need_help} href="#">Besoin d'aide?</a></div>
-                <div class="hybrid-login-form-other">
-                    <form class="login-form" action="">
-                        <div class="facebookForm regOption">
-                            <div class="fb-minimal">
-                            <hr/><button class="btn minimal-login btn-submit btn-small" type="submit" autocomplete="off" tabindex="0" data-uia="">
-                                <div class="fb-login" data-uia="fb-login">
+                <div>
+                    <form  action="">
+                        <div>
+                            <div>
+                            <hr/><button type="submit" autocomplete="off" tabindex="0" data-uia="">
+                                <div data-uia="fb-login">
                                     <img className={styles.icon_facebook} src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"/>
                                     <span className={styles.fb}>S'identifier avec Facebook</span>
                                 </div></button>
@@ -88,7 +88,7 @@ const Index = () => {
                                      <div data-uia="login-signup-now">Première visite sur Netflix&nbsp;?   
                                         <a  target="_self" href="/register">  Inscrivez-vous</a>.</div>
                                         <br/>
-                                        <h1> <div class="recaptcha-terms-of-use" data-uia="recaptcha-terms-of-use"><p>
+                                        <h1> <div data-uia="recaptcha-terms-of-use"><p>
                                         <span>Cette page est protégée par Google reCAPTCHA pour nous assurer que vous n'êtes pas un robot.</span>&nbsp;</p>
                                        
                                     </div> 
