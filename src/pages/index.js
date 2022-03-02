@@ -1,13 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import TitlePage from "../components/UI/Title/TitlePage";
-import Input from "../components/UI/Input/Input";
-import authService from "../services/auth.service";
 import MainLayout from '../components/layouts/MainLayout';
-import { useRouter } from "next/router";
 import { useQuery } from "@apollo/react-hooks";
 import styles from "./index.module.scss";
 import AllFilms from '../components/Film/All/AllFilms';
 import { getFilms } from "../graphql/queries/Films";
+
 
 
 

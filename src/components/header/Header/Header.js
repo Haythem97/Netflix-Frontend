@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from 'next/link';
 import styles from "./Header.module.scss";
 import authService from "../../../services/auth.service";
-import withAuth from "../../../HOC/withAuth";
+import LogoImg from "../../../../public/netflix.png";
 
 
 
@@ -37,7 +37,7 @@ useEffect(() => {    const token = localStorage.getItem("token");
               <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"/>
 
       <div className={styles.menutext}>
-      <li><a href='/'><img className={styles.s} src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png "/></a></li>
+      <li><a href='/'>            <img src={LogoImg.src} className={styles.s}/></a></li>
 
            <ul>
              <li><Link href="/">Accueil</Link></li>

@@ -39,7 +39,7 @@ const Index = () => {
             <h1 className={styles.login__title}>S'identifier</h1>
             <div className={styles.login__group}></div>
             <form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
-                <input 
+                <Input 
                 type="email"
                 id="email"
                 placeholder="  E-mail ou numéro de téléphone"
@@ -49,7 +49,7 @@ const Index = () => {
                     setUser({...user, email:e.target.value})
                 }}
                 />
-                <input 
+                <Input 
                 type="password"
                 id="password"
                 placeholder="  Mot de passe"
