@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import MainLayout from '../components/layouts/MainLayout';
+import MainLayout from '../../components/layouts/MainLayout';
 import { useQuery } from "@apollo/react-hooks";
 import styles from "./index.module.scss";
-import AllFilms from '../components/Film/All/AllFilms';
-import { getFilms } from "../graphql/queries/Films";
+import AllFilms from '../../components/Film/All/AllFilms';
+import { getFilms } from "../../graphql/queries/Films";
 
 
 
