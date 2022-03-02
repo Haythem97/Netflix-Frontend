@@ -1,0 +1,218 @@
+.svg_icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg_icon path,
+.svg_icon polygon,
+.svg_icon rect {
+  fill: #ffffff;
+}
+
+.svg_icon circle {
+  stroke: #ffffff;
+  stroke-width: 1;
+}
+.menu{
+  width:100%;
+  display:block;
+  z-index:999;
+  top:10px;
+  left:200px;
+  position:fixed;
+  color:white;
+  background: rgba(0, 0, 0, 0);
+
+svg {
+  width: 20px;
+  z-index: 5;
+  background: #00000000;
+  color: white;
+  font-size: large;
+
+}
+:hover{
+  background: #00000000;
+  z-index: 5;
+
+
+}}
+.a{
+  float: right;
+  padding-right: 250px;
+}
+.s{
+  width: 127px;
+  position: absolute;
+  top: -19px;  
+  left: -152px;
+}
+.x{
+  position: absolute;
+  right: 250px;
+  width: 150px;
+  padding-top: 20px;
+}
+.menu text{
+  float: left;
+  display: block;
+  margin-left: 5px;
+      color:white;
+
+}
+
+.menu ul{
+  float: left;
+  margin: 0;
+  padding: 0;
+  color:white;
+}
+
+.menu li{
+  float: left;
+  list-style: none;
+  line-height: 30px;
+  background: rgba(0, 0, 0, 0);
+  display: inline;
+    color:white;
+    padding-left: 12px;
+
+}
+
+.menu li a, .menu li a:link{
+    color:white;
+  margin-left: 5px;
+  display: block;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  padding: 5px;
+  text-decoration: none;
+  font-size: .8rem;
+  &:hover{
+    color: rgba(204, 204, 204, 0.644);
+
+  }
+}
+
+
+.menu li li a, .menu li li a:link, .menu li li a:visited{
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.336);
+  color: white;
+  width: 175px;
+  margin: 0;
+  padding: 0px 10px;
+  line-height:30px;
+  position: relative;
+  text-align: left;
+}
+
+.menu li li a:hover, .menu li li a:active {
+  color: rgba(204, 204, 204, 0.644);
+}
+ 
+.menu li ul{
+  z-index:9999;
+  position:absolute;
+  left:-999em;
+  height:auto;
+  width:170px;
+  margin:0px;
+  padding:0px;
+}
+
+.menu li:hover ul, .menu li li:hover ul, .menu li li li:hover ul, .menu li.sfhover ul, .topwctopdropnav li li.sfhover ul, .topwctopdropnav li li li.sfhover ul{
+  left: auto;
+  color: rgba(204, 204, 204, 0.644);
+}
+
+.menu li:hover, .menu li.sfhover{
+  position: static;
+  color: rgba(204, 204, 204, 0.644);
+
+}
+
+.socialiconsmenu {
+  float: right;
+  font-size: 12px;
+  padding: 0px 0px;
+  margin: 10px 10px 0px 0px;
+  letter-spacing: 4px;
+  background: none;
+  display: inline-block;
+}
+
+.socialiconsmenu a:link {
+  color: rgba(0, 0, 0, 0.205);
+}
+
+.socialiconsmenu a:hover {
+  color: rgba(204, 204, 204, 0.644);
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px) {
+  .menu {
+    width: 100%;
+    height: 60px; 
+    display: inline;
+    padding: 0;
+    margin: 0 0 22px 0;
+    z-index:100;
+    top:0px;
+    left:0px;
+    position:fixed;
+    background: white;
+}
+  
+  .menutext{
+    float:left;
+    width: 100%;
+    display: inline;
+    padding: 0;
+    margin-left:5px;
+  }
+  
+  .menu li a, .menu li a:link{
+    color: black;
+    margin-left: 5px;
+    font-size: 10px;
+    display: inline;
+    height: 15px;
+  }
+  .socialiconsmenu a:hover {
+  float: right;
+  color: #ccc;
+
+}
+}
+
+  @media screen and (max-width: 768px) {
+  .menu {
+    width: 100%;
+    height: 60px; 
+    display: inline;
+}
+  
+  .menutext {
+    float:left;
+    width:100%; 
+    display: inline;
+    padding:0;
+    margin-left:5px;
+  }
+  
+  .menu li a, .menu li a:link {
+    color: black;
+    margin-left: 5px;
+    font-size: 10px;
+    display: inline;
+    height: 15px;
+  }
+
+.socialiconsmenu {
+  float: none;
+  width: 100%;
+}
+
+}

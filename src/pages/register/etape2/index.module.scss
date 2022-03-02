@@ -1,0 +1,293 @@
+.navbar {
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    min-height: 100px;
+    float: left;
+    text-align: left;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: 1px rgb(224, 224, 224);
+    border-bottom-style: solid;
+
+  }
+  .navbar li {
+    margin: 0 50px;
+    list-style-type: none;
+    float: left;
+    text-align: left;
+
+
+  }
+  .navbar li:nth-child(2) {
+    margin-top: 0px;
+    margin-right: 35px;
+    float: left;
+    text-align: left;
+
+
+  }
+ .logonetflix{
+  height: 85px;
+  width: 167px;
+  vertical-align: middle;
+  color: red;
+  fill: #e50914;
+  margin-left: 3%;
+  float: left;
+ }
+ .et2{
+    text-align: inherit;
+    font-size: 13px;
+    text-align: left;
+
+ }
+ .se{
+  font-size: x-large;
+  font-weight: 700;
+  text-align: left;
+
+ }
+ .dec{
+  float: right;
+  color: #333;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 90px;
+  margin: 0 3%;
+ }
+  .header{
+    float: left;
+    height: 90px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+  .h3{
+    color: white;
+    font-size: large;
+    float: left;
+
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 180px;
+    z-index: 1
+
+
+  }
+  
+  .dec {
+    padding: 7px 7px;
+    border-radius: 3px;
+    font-weight: bold;    
+  }
+  .et{
+    margin-top: 30px;
+    margin-left: 300px;
+    transform: none;
+    opacity: 1;
+    transition-duration: 250ms;
+    padding-left: 16px;
+    padding-right: 16px;
+    float: left;
+    width: 68%;
+
+    h1{
+      text-align: left;
+      font-size: small;
+
+      margin-bottom: 15px;
+      font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    }
+    h3{
+      font-size: xx-large;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 20px;
+      font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    }
+    ul li{
+      font-size: large;
+      text-align: left;
+      margin-bottom: 7px;
+      font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    }
+    .checkmark_group_icon{
+      margin-right: 8px;
+      color: red;
+    }
+    svg{
+      color: #e50914;
+    }
+  }
+
+
+
+  .table{
+    border-collapse: collapse;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-bottom: 1px rgb(224, 224, 224);
+    margin-top: 450px;
+    margin-left: 300px;
+    width: 1000px;
+    tbody{
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;    
+      flex-direction: column;
+      vertical-align: middle;
+      border-color: inherit;
+      --layout-container-side-padding: 32px;
+
+      
+      }
+    tr{
+      border-bottom: 1px solid #ccc;
+      min-height: 45px;
+      display: flex;
+      vertical-align: inherit;
+      border-color: inherit;
+      margin-top: 15px;
+
+
+    }
+    .f1{
+      width: 45%;
+      font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+      text-align: left;
+    }  
+    .f2{
+      width: 14%;
+      font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+      text-align: center;
+    }
+    .f3{
+      width: 14%;
+      font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+      text-align: center;
+    }
+    div{
+      text-align: center;
+
+    }
+    input{
+      width: 80%;
+    }
+  }
+  .ft1{
+    text-align: left;
+    margin-left: 280px;
+    font-size: 13px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #737373;
+    padding: 20px 150px 5px 16px;
+    max-width: 50%;
+  }
+  .ft2{
+    text-align: left;
+    margin-left: 280px;
+    font-size: 13px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #737373;
+    padding: 10px 150px 45px 16px;
+    max-width: 50%;
+  }
+  .svg_icon {
+    width: 1.7em;
+    height: 1.7em;
+  }
+  
+  .svg_icon path,
+  .svg_icon polygon,
+  .svg_icon rect {
+    fill: #000000;
+  }
+  
+  .svg_icon circle {
+    stroke: #000000;
+    stroke-width: 2;
+  }
+  .plangriddic{
+    padding: 0 150px 0 16px;
+    color: #737373;
+    font-size: 14px;
+    display: block;
+    width: 770px;
+    margin-left: 280px;
+    margin-top: 10px;
+  }
+
+  .plangrid{ 
+    position: absolute;
+    top: 350px;
+    left: 745px;
+    }
+    .plangridheader{
+      width: 60%;
+      clip: rect(1px,1px,1px,1px);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      width: 1px;
+    }
+    
+  
+  .radio_button {
+    margin: 15px;
+  }
+  .radio_button input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+    color: white;
+  }
+  .radio_button label {
+    display: inline-block;
+    background-color: #b35f5f;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 22px;
+
+  }
+ 
+  .radio_button input[type="radio"]:checked + label {
+    background-color: #ff0000;
+    color: white;
+
+  }
+  .Button{
+    color: #fff;
+    background-color: #e50914;
+    min-height: 64px;
+    font-weight: 500;
+    font-size: 24px;
+    width: 400px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
